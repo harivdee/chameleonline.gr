@@ -1,0 +1,69 @@
+body{
+	margin:0;
+}
+
+
+.mainpage-style {
+	background-image: url(https://github.com/harivdee/chameleonline.gr/blob/master/chameleon/mainPage-background.png?raw=true);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: relative;
+	font-family: 'Give You Glory', cursive;
+	top: 0px;
+	background-size: 80%;
+	margin: 0 auto;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#board-games {
+	position: fixed;
+	left: 20%;
+	top: 30%;
+	height: 9.1%;
+	width: 10%;
+}
+
+#virtual-reality-room {
+	float: right;
+	position: fixed;
+	right: 20%;
+	top: 25%;
+	height: 9.1%;
+	width: 10%;	
+
+}
+
+#video-games-room {
+	position: fixed;
+	width: 10%;
+	top: 100%;
+	left: 15%;
+}
+
+
+#wanna-play-icon {
+	position: fixed;
+	width: 40%;
+	top:100%;
+	left: 50%;
+}
+
+
+/*
+	font-family: 'Fira Sans Extra Condensed', sans-serif;  
+*/
