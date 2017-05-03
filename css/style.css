@@ -7,7 +7,7 @@
 
 
 .mainpage-style {
-	background-image: url('https://github.com/harivdee/chameleonline.gr/blob/master/images/mainPage-background.png');
+	background-image: url('https://github.com/harivdee/chameleonline.gr/blob/master/images/mainPage-background.png?raw=true');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -16,7 +16,6 @@
     height: 100vh;
     min-width: 1369px;
   	min-height: 1411px;
-    z-index: 1;
 }
 
 *, *:before, *:after {

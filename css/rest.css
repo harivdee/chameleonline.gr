@@ -1,0 +1,16 @@
+.rest-body{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin: 0 auto;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #FFF;
+}
+
+nav ul {
+	list-style: none;
+}
+
+header img {
+	width: 10%;
+	height: auto;
+}
