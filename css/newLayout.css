@@ -1,0 +1,159 @@
+html{
+	margin:0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#container{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin: 0 auto;
+	background-image: url('https://github.com/harivdee/chameleonline.gr/blob/master/images/cham-pattern.png?raw=true');
+}
+
+header {
+	background-color: #FFF;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-bottom: solid 3px;
+	border-color: #006400;
+}
+
+main {
+	background-color: #FFF;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-left: 3%;
+}
+
+header img {
+	width: 35%;
+	height: auto;
+	margin: auto;
+}
+
+h1 {
+	margin-top: 0;
+	padding-top: 5px;
+	text-align: center;
+	font-weight: 800;
+	font-size: 82px;
+	color: 	#FF8C00;
+}
+
+h2 {
+	color: #FFF;
+	text-align: center;
+	margin:0 auto;
+	letter-spacing: 3px;
+	padding-bottom: 3px;
+	border-bottom: solid 2px #FFF;
+	font-size: 32px;
+}
+
+.illustration {
+	width: 40%;
+	background-color: #A9A9A9;
+	float: left;
+	align-items: stretch;
+}
+
+.gametype-section{
+	width: 60%;
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: left;
+	align-items: stretch;
+}
+
+.strategy-games{
+	background-color: #8FBC8F;
+	width: 45%;
+	display: flex;
+	float: left;
+	margin-bottom: 5%;
+}
+
+.party-games{
+	background-color: #FA8072;
+	width: 45%;
+	display: flex;
+	float: left;
+	margin-bottom: 5%;
+	margin-left: 10%;
+}
+
+.quick-games{
+	background-color: #FF8C00;
+	width: 45%;
+	display: flex;
+	float: left;
+	margin-bottom: 5%;
+}
+
+.Two-player-games{
+	background-color: #00CED1;
+	width: 45%;
+	display: flex;
+	float: left;
+	margin-bottom: 5%;
+	margin-left: 10%;
+}
+.gametype-margin {
+	padding-left: 5%;
+	padding-right: 5%;
+	border-bottom: solid 3px;
+	border-color: #006400;
+	padding-bottom: 5%;
+}
+
+footer{
+	background-color: #00CED1;
+	margin-top: 2%;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+.facebook-link {
+	width: 6%;
+	height: auto;
+	position: relative;
+	left: 45%;
+	
+}
+
+.instagram-link {
+	width: 5%;
+	height: auto;
+	position: relative;
+	left: 45%;
+	padding-bottom: 8px;
+
+}
+
+
