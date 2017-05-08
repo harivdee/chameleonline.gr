@@ -36,22 +36,41 @@ nav ul {
 	list-style: none;
 	text-align: center;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 22px;
 	margin-top: 0px;
 	margin-bottom: 5px;
 	text-transform: uppercase;
 	padding: 0;
+	color: #006400;
 }
 
 nav ul li {
 	display: inline-block;
-	padding-left: 3%;
+	padding-left: 6%;
 }
 
-header img {
-	width: 35%;
+#whiteSpace {
+	margin-left: 12%;
+}
+
+
+/*	header img */
+
+#image-slides {
+	text-align: center;
+}
+
+
+.chameleon-slides {
+	width: 30%;
 	height: auto;
-	margin: auto;
+	margin: 0 auto;
+}
+
+.Escape-Room{
+	visibility: hidden;
+	padding-left: 8%;
+	padding-right: 0%;
 }
 
 h1 {
@@ -87,6 +106,7 @@ h2 {
 	padding-right: 5%;
 	text-align: left;
 	align-items: stretch;
+	box-sizing: border-box;
 }
 
 .strategy-games{
@@ -148,12 +168,10 @@ footer a {
 }
 
 .instagram-link {
-	width: 5%;
+	width: 4%;
 	height: auto;
 	position: relative;
 	left: 45%;
-	padding-bottom: 8px;
-
+	padding-bottom: 1%;
 }
-
 
