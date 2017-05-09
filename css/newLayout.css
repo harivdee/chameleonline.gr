@@ -1,5 +1,7 @@
-html{
+html,body {
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
 	margin:0 auto;
+	background-image: url('https://github.com/harivdee/chameleonline.gr/blob/master/images/cham-pattern.png?raw=true');
 }
 
 .clearfix::after {
@@ -12,24 +14,20 @@ html{
   box-sizing: border-box;
 }
 
-#container{
-	font-family: 'Fira Sans Extra Condensed', sans-serif;
+.container{
+	max-width: 1280px;
 	margin: 0 auto;
-	background-image: url('https://github.com/harivdee/chameleonline.gr/blob/master/images/cham-pattern.png?raw=true');
 }
 
 header {
 	background-color: #FFF;
-	margin-left: 5%;
-	margin-right: 5%;
 	border-bottom: solid 3px;
 	border-color: #006400;
 }
 
 main {
 	background-color: #FFF;
-	margin-left: 5%;
-	margin-right: 5%;
+
 }
 
 nav ul {
