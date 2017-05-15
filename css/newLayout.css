@@ -173,3 +173,42 @@ footer a {
 	padding-bottom: 1%;
 }
 
+
+/*
+.slick-prev, .slick-next {
+	z-index: 10;
+}
+
+.slick-prev {
+	left: 25px;
+}
+
+.slick-prev:before {
+	content: "<";
+}
+
+.slick-next {
+	right: 25px;
+}
+
+.slick-next:before {
+	content: ">";
+}
+*/
+
+.home-slides {
+	width: 70%;
+	height: auto;
+}	
+
+.home-page {
+	margin: 0;
+	width: 25%;
+	text-align: left;
+	float: right;
+}
+
+
+#home-page {
+	text-align: left;
+}
