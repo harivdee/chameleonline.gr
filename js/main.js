@@ -22,10 +22,18 @@ $(document).ready(function(){
 	  cssEase: 'linear',
 	});  */
 
-	 $('.home-slides:gt(0)').hide();
+	var myIndex = 0;
+	carousel();
 
-    setInterval(function() {
-        $('.home-slides:first-child').fadeOut(0).next('.home-slides').fadeIn(0).end().appendTo('#home-page')
-	}, 3000);
-
-})
+	function carousel() {
+    	var i;
+    	var x = document.getElementsByClassName("home-slides");
+    		for (i = 0; i < x.length; i++) {
+       			x[i].style.display = "none"; 
+    }
+    	myIndex++;
+    	if (myIndex > x.length) {myIndex = 1}    
+    		x[myIndex-1].style.display = "block";
+    		setTimeout(carousel, 4000);    
+	}
+});

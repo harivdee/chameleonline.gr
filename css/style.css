@@ -12,10 +12,10 @@
 	background-repeat: no-repeat;
 	background-position: center top;
   position: relative;
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
-  min-width: 1369px;
-	min-height: 1411px;
+  width: 1369px;
+	height: 1411px;
 }
 
 *, *:before, *:after {
@@ -24,11 +24,9 @@
 
 
 .link {
-  background-color: rgba(0, 0, 0, .25);
-  height: 50px;
-  width: 50px;
+  background-color: rgba(0, 0, 0,0);
   z-index: 2;
-  position: absolute;
+  position: relative;
   display: block;
 }
 
@@ -79,6 +77,16 @@
   top: 67%;
   height: 10%;
 }
+
+.relative-position{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
 
 /*
 	font-family: 'Fira Sans Extra Condensed', sans-serif;  

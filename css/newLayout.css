@@ -2,6 +2,7 @@ html,body {
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
 	margin:0 auto;
 	background-image: url('https://github.com/harivdee/chameleonline.gr/blob/master/images/cham-pattern.png?raw=true');
+	box-sizing: border-box;
 }
 
 .clearfix::after {
@@ -11,7 +12,7 @@ html,body {
 }
 
 *, *:before, *:after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 .container{
@@ -100,8 +101,8 @@ h2 {
 .gametype-section{
 	width: 60%;
 	float: left;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
 	text-align: left;
 	align-items: stretch;
 	box-sizing: border-box;
@@ -110,6 +111,7 @@ h2 {
 .strategy-games{
 	background-color: #8FBC8F;
 	width: 45%;
+	height: 300px;
 	display: flex;
 	float: left;
 	margin-bottom: 5%;
@@ -118,6 +120,7 @@ h2 {
 .party-games{
 	background-color: #FA8072;
 	width: 45%;
+	height: 300px;
 	display: flex;
 	float: left;
 	margin-bottom: 5%;
@@ -127,6 +130,7 @@ h2 {
 .quick-games{
 	background-color: #FF8C00;
 	width: 45%;
+	height: 300px;
 	display: flex;
 	float: left;
 	margin-bottom: 5%;
@@ -135,10 +139,12 @@ h2 {
 .Two-player-games{
 	background-color: #00CED1;
 	width: 45%;
+	height: 300px;
 	display: flex;
 	float: left;
 	margin-bottom: 5%;
 	margin-left: 10%;
+	overflow: hidden;
 }
 .gametype-margin {
 	padding-left: 5%;
@@ -177,7 +183,7 @@ footer a {
 /*
 .slick-prev, .slick-next {
 	z-index: 10;
-}
+}/
 
 .slick-prev {
 	left: 25px;
@@ -195,20 +201,134 @@ footer a {
 	content: ">";
 }
 */
+.top-container {
+	padding: 30px 5px 25px 5px;
+
+}
 
 .home-slides {
-	width: 70%;
-	height: auto;
+	width: 738px;
+	height: 450px;
 }	
 
 .home-page {
-	margin: 0;
-	width: 25%;
 	text-align: left;
+	margin: 0;
+}
+
+#home-slider {
+	width: 738px;
+	float: left;
+}
+
+.home-intro {
+	background-color: #8FBC8F;
+	padding: 10px;
+	width: 95%;
+	font-size: 22px;
+	margin:0;
+}
+
+.home-hello{
+	width: 40%;
 	float: right;
 }
 
-
-#home-page {
-	text-align: left;
+.bottom-container {
+	padding: 10px 10px 30px 10px;
 }
+
+.bottom-container h3{
+	color: #FFF;
+	font-size: 32px;
+	letter-spacing: 3px;
+	padding-bottom: 10px;
+	border-bottom: solid 2px #FFF;
+}
+
+.home-address {
+	padding:20px;
+	width: 30%;
+	height: 360px;
+	float: left;
+	background-color: #00CED1;
+	font-size: 28px;
+}
+
+.store-hours {
+	padding:20px;
+	width: 30%;
+	height: 360px;
+	float: left;
+	background-color: #FF8C00;
+	margin-left: 20px;
+	font-size: 28px;
+}
+
+.home-static{
+	margin-left: 20px;
+	padding-left: 50px;
+	width: 30%;
+	height: auto;
+	float: left;
+}
+
+.static-img {
+	width: auto;
+	height: 360px;
+	display: block;
+	margin: auto;
+}
+
+.sub-menu {
+  display: none;
+  background-color: #fff;
+  padding: 10px 0px 10px 10px;
+  position: absolute;
+  border: 1px solid #ccc;
+  top: 25px;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.menu-item {
+	position: relative;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu li{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    text-transform: none;
+    font-size: 18px;
+}
+
+li a {
+	text-decoration: none;
+}
+
+/* unvisited link */
+a::link {
+    color: red;
+}
+
+/* visited link */
+a::visited {
+    color: green;
+}
+
+/* mouse over link */
+a::hover {
+    color: hotpink;
+}
+
+/* selected link */
+a::active {
+    color: blue;
+}
+
